@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  ul
+    - for (var i = 0; i < doggoTags.length; i++)
+      li
+        img(src=('doggos/' + doggoTags[i]))

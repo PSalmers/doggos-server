@@ -1,0 +1,24 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #ed9f0c;
+}
+
+a {
+  color: #00B7FF;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 300pt;
+  margin: 10pt;
+}
